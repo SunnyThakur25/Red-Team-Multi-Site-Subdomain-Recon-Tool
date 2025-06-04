@@ -1,0 +1,107 @@
+# Login Related
+login
+signin
+auth
+authenticate
+secure
+account
+password
+user
+session
+otp
+
+# Admin Related
+admin
+dashboard
+control
+manage
+panel
+settings
+config
+administration
+root
+sysadmin
+
+# API Related
+api
+rest
+endpoint
+v1
+v2
+v3
+graphql
+json
+xml
+webhook
+
+# Development Related
+dev
+development
+test
+testing
+stage
+staging
+beta
+alpha
+debug
+sandbox
+
+# Internal Related
+internal
+intranet
+private
+corp
+employee
+staff
+hr
+payroll
+finance
+docs
+
+# Media Related
+media
+files
+upload
+download
+image
+video
+audio
+static
+content
+cdn
+
+# Support Related
+support
+help
+faq
+ticket
+contact
+chat
+forum
+community
+assist
+query
+
+# Shopping Related
+shop
+store
+cart
+checkout
+product
+order
+payment
+invoice
+billing
+ecommerce
+
+# Other Common
+blog
+news
+about
+home
+index
+main
+portal
+site
+web
+www
