@@ -5,21 +5,27 @@
 
 
 
-#Red Team Multi-Site Subdomain Recon Tool
-Overview
-The Red Team Multi-Site Subdomain Recon Tool is a professional-grade reconnaissance utility designed for red team engagements. It enables security professionals to enumerate subdomains across multiple target websites, classify web pages (e.g., login, admin, API), and capture screenshots for rapid analysis. Built with a focus on efficiency and stealth, the tool combines active and passive reconnaissance techniques to uncover hidden subdomains and potential attack surfaces.
-Features
+# Red Team Multi-Site Subdomain Recon Tool
+ 
+ Overview
 
+The Red Team Multi-Site Subdomain Recon Tool is a professional-grade reconnaissance utility designed for red team engagements. 
+
+It enables security professionals to enumerate subdomains across multiple target websites, classify web pages (e.g., login, admin, API), and capture screenshots for rapid analysis. 
+
+Built with a focus on efficiency and stealth, the tool combines active and passive reconnaissance techniques to uncover hidden subdomains and potential attack surfaces.
+Features
+```
 Multi-Site Subdomain Enumeration: Actively brute-force subdomains using a customizable wordlist and passively gather subdomains via public sources (e.g., crt.sh).
 Page Classification: Automatically categorize web pages (e.g., login, admin, API) using a keyword-based system.
 Screenshot Capture: Capture screenshots of live subdomains using a headless Chrome browser, organized by category.
 Professional GUI: A sleek, Streamlit-based interface with customizable themes (Dark Gradient, Cyber Neon) and an eye-catching design.
 Red Team Focus: Prioritize sensitive subdomains (e.g., staging, internal, backup) for identifying misconfigurations.
 Extensible: Customizable wordlists for subdomains and keywords, allowing tailored reconnaissance.
+```
 
 
-
-Installation
+# Installation
 
 Clone the Repository :
 ```
@@ -33,7 +39,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 Install Dependencies:Ensure you have Python 3.8+ installed, then run:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Dependencies include:
 ```
@@ -64,12 +70,12 @@ streamlit run main.py
 This will launch the GUI in your default browser (e.g., http://localhost:8501).
 ```
 Configure the Scan:
-
+```
 In the sidebar, enter target domains (one per line, e.g., example.com, test.com).
 Specify the output directory for screenshots (default: screenshots).
 Provide paths to the subdomain and keyword wordlists (default: wordlists/subdomains.txt, wordlists/keywords.txt).
 Select a theme (Dark Gradient or Cyber Neon).
-
+```
 
 Launch the Scan:
 ```
@@ -111,18 +117,18 @@ Google Chrome (for screenshot capture)
 Internet connection (for passive recon and HTTP requests)
 ```
 Notes for Red Team Professionals
-
+```
 Stealth: Passive recon via crt.sh minimizes active scanning footprints.
 Targeted Recon: The tool prioritizes sensitive subdomains (e.g., internal, backup) that are often misconfigured.
 Extensibility: Add custom subdomains and keywords to focus on specific attack surfaces.
-
+```
 Troubleshooting
-
+```
 Screenshots Not Capturing:
 Verify Chrome and ChromeDriver compatibility.
 Ensure internet connectivity.
-
-
+```
+```
 GUI Not Loading:
 Check Streamlit installation (streamlit --version).
 Run the tool in a virtual environment to avoid dependency conflicts.
@@ -131,11 +137,12 @@ Run the tool in a virtual environment to avoid dependency conflicts.
 Logo Missing:
 Ensure logo.png is in the assets/ directory, or the placeholder will be used.
 
+```
 
-
-License
+# License
 This tool is intended for authorized security testing and red team engagements only. Use responsibly and in compliance with applicable laws and permissions.
-Author
+# Author
+
 Developed by a cybersecurity red team professional for advanced reconnaissance tasks. For issues or contributions, contact the project maintainer.
 
 Last Updated: June 04, 2025
